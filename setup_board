@@ -265,6 +265,8 @@ PORTAGE_BINHOST="${BOARD_BINHOST}"
 # You can use --select to override this.
 EMERGE_DEFAULT_OPTS="--oneshot"
 
+VIDEO_CARDS="intel i965"
+
 # Allow the user to override or define additional settings.
 source "${BOARD_ETC}/portage/make.conf.user"
 EOF
